@@ -1,0 +1,24 @@
+lliurex-client-env-configuration (0.4) xenial; urgency=high
+
+  * Supporting CLIENT_PROXY_ENABLED variable from server
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 07 Feb 2018 17:22:18 +0100
+
+lliurex-client-env-configuration (0.3) xenial; urgency=high
+
+  * Adding no_proxy environment variable
+  * Adding svn configuration in skel to support connections via proxy
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 28 Apr 2017 13:58:02 +0200
+
+lliurex-client-env-configuration (0.2) xenial; urgency=high
+
+  * Fixed proxy configuration being installed in the wrong path
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 10 Jan 2017 12:45:16 +0100
+
+lliurex-client-env-configuration (0.1) xenial; urgency=high
+
+  * Initial release.
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 30 May 2016 13:05:01 +0200
