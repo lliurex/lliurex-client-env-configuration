@@ -1,3 +1,9 @@
+lliurex-client-env-configuration (0.4.19) bionic; urgency=medium
+
+  * First bionic release
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 21 Jan 2019 17:11:42 +0100
+
 lliurex-client-env-configuration (0.4) xenial; urgency=high
 
   * Supporting CLIENT_PROXY_ENABLED variable from server
