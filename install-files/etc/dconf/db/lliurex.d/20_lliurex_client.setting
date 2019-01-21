@@ -1,0 +1,5 @@
+[system/proxy]
+autoconfig-url='http://proxy/proxy.pac'
+mode='auto'
+
+
