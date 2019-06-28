@@ -1,3 +1,9 @@
+lliurex-client-env-configuration (0.5) bionic; urgency=medium
+
+  * Add config to remove local dns resolution
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 28 Jun 2019 13:29:35 +0200
+
 lliurex-client-env-configuration (0.4.19) bionic; urgency=medium
 
   * First bionic release

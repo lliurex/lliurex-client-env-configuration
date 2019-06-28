@@ -4,11 +4,9 @@ set -e
 
 case "$1" in
    configure)
-
-
-
-
-
+        systemctl stop systemd-resolved.service || true
+        systemctl mask systemd-resolved.service
+        [ ! -L /etc/resolv.conf ] || rm /etc/resolv.conf
    ;;
 
    abort-upgrade|abort-remove|abort-deconfigure)
