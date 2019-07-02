@@ -1,0 +1,11 @@
+[Unit]
+Description=Lliurex client network configuration
+Before=network-pre.target
+Wants=network-pre.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/lliurex-client-env-network
+
+[Install]
+WantedBy=default.target
