@@ -1,3 +1,9 @@
+lliurex-client-env-configuration (0.6.1) bionic; urgency=medium
+
+  * Fixed service script
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 02 Jul 2019 13:30:52 +0200
+
 lliurex-client-env-configuration (0.6) bionic; urgency=medium
 
   * Added service to manage removal of resolv.conf 
