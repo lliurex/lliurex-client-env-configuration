@@ -1,0 +1,17 @@
+#!/bin/sh
+
+RESOLV="/etc/resolv.conf"
+TOKEN="/etc/NetworkManager/llx.token"
+
+if [ !-e $TOKEN ];then
+
+	if [ -L $RESOLV ]; then
+
+		rm -rf $RESOLV
+		touch $RESOLV
+		touch $TOKEN
+
+	fi
+
+fi
+
