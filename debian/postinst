@@ -7,6 +7,7 @@ case "$1" in
         systemctl stop systemd-resolved.service || true
         systemctl mask systemd-resolved.service
         [ ! -L /etc/resolv.conf ] || rm /etc/resolv.conf
+	systemctl restart network-manager || true
    ;;
 
    abort-upgrade|abort-remove|abort-deconfigure)

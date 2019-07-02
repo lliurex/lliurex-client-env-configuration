@@ -1,3 +1,9 @@
+lliurex-client-env-configuration (0.5-1) bionic; urgency=high
+
+  * Adding network-manager
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 02 Jul 2019 09:34:46 +0200
+
 lliurex-client-env-configuration (0.5) bionic; urgency=medium
 
   * Add config to remove local dns resolution
