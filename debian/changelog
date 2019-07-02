@@ -1,3 +1,9 @@
+lliurex-client-env-configuration (0.5-2) bionic; urgency=medium
+
+  * touch etc/resolv.conf 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 02 Jul 2019 10:13:29 +0200
+
 lliurex-client-env-configuration (0.5-1) bionic; urgency=high
 
   * Adding network-manager

@@ -6,7 +6,12 @@ case "$1" in
    configure)
         systemctl stop systemd-resolved.service || true
         systemctl mask systemd-resolved.service
-        [ ! -L /etc/resolv.conf ] || rm /etc/resolv.conf
+
+	if [ -L /etc/resolv.conf ]; then
+		rm /etc/resolv.conf
+		touch /etc/resolv.conf
+	fi
+
 	systemctl restart network-manager || true
    ;;
 
