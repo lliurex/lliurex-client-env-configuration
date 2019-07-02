@@ -1,6 +1,6 @@
-lliurex-client-env-configuration (0.5-2) bionic; urgency=medium
+lliurex-client-env-configuration (0.6) bionic; urgency=medium
 
-  * touch etc/resolv.conf 
+  * Added service to manage removal of resolv.conf 
 
  -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 02 Jul 2019 10:13:29 +0200
 
