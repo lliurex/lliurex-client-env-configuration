@@ -1,3 +1,9 @@
+lliurex-client-env-configuration (0.6.3) bionic; urgency=medium
+
+  * Copying resolv.conf instead of removing
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 03 Sep 2019 12:46:18 +0200
+
 lliurex-client-env-configuration (0.6.2) bionic; urgency=medium
 
   * trying to make sure proxy is disabled if connection fails
