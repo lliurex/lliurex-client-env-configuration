@@ -1,0 +1,14 @@
+Source: lliurex-client-env-configuration
+Section: misc
+Priority: standard
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.9.7
+
+Package: lliurex-client-env-configuration
+Architecture: all
+Pre-Depends: n4d (>= 0.81.2)
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: lliurex-artwork-defaults-client (<< 5.0.35)
+Description:  Client environment configuration
+ Provides multiple environment configurations
