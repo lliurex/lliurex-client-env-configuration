@@ -1,3 +1,9 @@
+lliurex-client-env-configuration (0.7.23) jammy; urgency=medium
+
+  * First jammy release 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 07 Dec 2023 09:10:19 +0100
+
 lliurex-client-env-configuration (0.7) focal; urgency=medium
 
   * First focal release.
